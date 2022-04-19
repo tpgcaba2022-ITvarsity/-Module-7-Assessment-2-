@@ -1,0 +1,285 @@
+/*=======whole html page=======*/
+html{
+    height: 100%;
+}
+/*=======body settings=======*/
+body{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    height: 59%;
+}
+.body-home{
+    background-image: url(images/background-port-01.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+/*==========HOME PAGE==========*/
+.img-logo{
+    width: 150px;
+    display:  block;
+    margin: auto;
+    padding: 25px 10px 10px 10px;
+}
+.txt-logo{
+    width: 200px;
+    display: block;
+    margin: auto;
+    padding: 25px;
+}
+
+/*=====home page menu=====*/
+.home-menu-item{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:ghostwhite;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    border: 5px double firebrick;
+    box-shadow: 2px 5px none;
+    
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+/*==========food PAGE Meals==========*/
+#main-meals{
+    padding-top: 50px;
+}
+.header{
+    background-color: floralwhite;
+    width: 100%;
+    height: 70px;
+    top: 0;
+    
+    position: fixed;
+    overflow: hidden;
+    text-align: center;
+}
+.header i{
+    float: left;
+    padding: 17px 0px 0px 17px;
+    color: white;
+}
+.header img{
+    width: 150px;
+    padding-top: 14px;
+    padding-right: 25px;
+}
+
+
+/*==========meals PAGE menu==========*/
+
+.meal-list-item{
+    text-decoration: none;
+    border:5px dotted salmon;
+    display: block;
+    margin: 25px;
+}
+
+.meal-list-item h1{
+    font-weight: bold;
+    font-size: 20px;
+    color: #1a1a1a;
+    padding-left: 10px;
+}
+.meal-list-item p{
+    font-size: 15px;
+    font-style: italic;
+    color: floralwhite;
+    margin-top: 7px;
+    padding-left: 10px;
+}
+
+.meal-list-item i{
+    float: right;
+    padding-right: 10px;
+    color: #1a1a1a;
+}
+
+.body-starters{
+    background-image: url(images/background-port-02.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+/*================ meals detaisl ================*/
+
+.meal-details img{
+    width: 100%;
+    margin-top: 55px;
+}
+
+.meal-details h1{
+    font-size: 25px;
+    text-align: center;
+    border: 5px solid #1a1a1a;
+    margin: 10px;
+    padding: 5px;
+    color: salmon;
+}
+
+.meal-price-info{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.meal label{
+    line-height: 25px;
+    margin-left: 10px;
+    
+}
+
+
+/*=============== Style buttons =================*/
+.btn {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  background-color: indianred; /* Blue background */
+  border: solid orange; /* Remove borders */
+  color: white; /* White text */
+  padding: 15px 16px; /* Some padding */
+  font-size: 16px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: salmon;
+}
+
+/*=======text are=======*/
+.notes{
+    margin-left: 5px;
+}
+
+.extras{
+    margin-left: 5px;
+}
+.about-meal{
+    margin-left: 5px;
+}
+
+
+/*====== Order Confirmation page ========*/
+.body-order-c{
+    background-image: url(images/background-port-02.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.oder-c h2{
+    text-align: center;
+    text-decoration-line:underline;
+    text-decoration-style:dotted;
+    font-size: 50px;
+    font-family: cursive;
+    text-transform: uppercase;
+    
+}
+
+.flair{
+  margin-right: auto;
+  padding-top: 60px;
+  margin-left: auto;
+  margin-top: auto;
+  width: 75%;
+  border:dotted;
+  height: 40%;
+  background-color: blue;
+  animation-name: example;
+  animation-duration: 10s;
+}
+
+@keyframes example {
+  0%   {background-color: blue;}
+  10%  {background-color: yellow;}
+  20%  {background-color: Ivory;}
+  30% {background-color: green;}
+  40%   {background-color: Olive;}
+  50%  {background-color: Silver;}
+  60%  {background-color: Gray;}
+  70%  {background-color: Aquamarine;}
+  80%  {background-color: Wheat;}
+  90%  {background-color: Lime;}
+  100%  {background-color: Plum;}
+}
+
+.home-icon{
+    
+    margin-top: 50px;
+    margin-left: 500px;
+    
+}
+.home-icon a{
+    font-size: 50px;
+    color: rgb(77, 34, 178);
+    text-decoration: none;
+    
+}
+
+
+
+
+/*=============== RESPONSIVE LAYOUT ===============*/
+
+@media only screen (min-width:600px) {
+    #meals{
+        width: 80%;
+        margin: auto;
+    }
+    #recipe{
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media only screen (min-width:1000px) {
+    #meals{
+        width: 60%;
+        margin: auto;
+    }
+    #recipe{
+        width: 60%;
+        margin: auto;
+    }   
+}
+
+@media only screen (min-width:1500px) {
+    #meals{
+        width: 400%;
+        margin: auto;
+    }
+    #recipe{
+        width: 40%;
+        margin: auto;
+    }
+}
+
+@media only screen (min-width:720px) {
+ 
+    .body-starters{
+    background-image: url(images/background-port-02.jpg);
+    }
+}
+
+
+/*==============*/
+/*==============*/
+/*==============*/
+/*==============*/
+/*==============*/
+/*==============*/
